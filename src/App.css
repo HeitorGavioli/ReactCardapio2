@@ -66,3 +66,39 @@ body{
     display: block; /* Faz ocupar a linha inteira */
     margin-top: auto; /* Empurra o preço para baixo se o card tiver altura flexível */
   }
+  /* Responsividade para Desktops */
+  @media (min-width:1025px) {
+    .lista-itens-cardapio {
+      display: grid;
+      grid-template-columns: 4fr 4fr 4fr 4fr;
+      gap: 10px;
+    }
+  }
+  /* Responsividade para Laptops */
+  @media (max-width:1024px) {
+    .lista-itens-cardapio {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 20px;
+    }
+  }
+  
+  /* Responsividade para Tablets */
+  @media (min-width:560px) and (max-width:829px) {
+    .lista-itens-cardapio {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+  }
+  /* Responsividade para celulares */
+  @media screen and (max-width:559px){
+    .lista-itens-cardapio {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+    .cardapio-container h1 {
+      font-size: 35px;
+    }
+  }
