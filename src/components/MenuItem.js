@@ -15,6 +15,7 @@ function MenuItem({ item }) {
         src={item.imagemUrl}
         alt={item.nome}
         className="menu-item-imagem"
+        loading="lazy"
       />
       <h3>{item.nome}</h3>
       <p>{item.descricao}</p>
