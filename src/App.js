@@ -3,7 +3,7 @@ import React from 'react';
 import './App.css'; // Certifique-se de que o CSS está sendo importado
 import MenuItem from './components/MenuItem'; // Importa o componente MenuItem
 import menuItems from './data'; // Importa os dados do cardápio
-
+import Extrainfo from './components/Extrainfo';
 function App() {
   return (
     // Assumindo que existe um container principal ou pode ser o próprio App

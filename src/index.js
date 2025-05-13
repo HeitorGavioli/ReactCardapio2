@@ -5,7 +5,7 @@ import { BrowserRouter as Router } from 'react-router-dom'; // Mantenha se você
 
 // Componente principal
 import App from './App'; // Certifique-se que o caminho está correto (pode ser './App.js' ou só './App')
-
+import App2 from './Extrainfos';
 // Service Worker (mantenha como estava se estiver usando Create React App padrão)
 import * as serviceWorker from './serviceWorker';
 
@@ -23,6 +23,7 @@ root.render(
   <React.StrictMode>
     <Router> {/* Mantenha o Router se App ou seus filhos usam rotas */}
       <App />
+      <App2 />
     </Router>
   </React.StrictMode>
 );
