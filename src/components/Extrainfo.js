@@ -1,14 +1,14 @@
 import React from 'react';
 
-function Info({ item }) {
-    return (
-    <div className="menu-item">
-      <h3>Entre em contato por esse numero</h3>
-      <p>4499919199</p>
+function Extrainfo() {
+  return (
+    <div className="contact-info-section" style={{ padding: '10px 0', marginTop: '20px', borderTop: '1px solid #ddd' }}>
+      <h3>Informações de Contato</h3>
+      <p>Telefone: (XX) XXXX-XXXX</p>
+      <p>Email: contato@restaurante.com</p>
+      <p>Endereço: Rua Fictícia, 123 - Cidade Exemplo</p>
     </div>
   );
-
-    
 }
 
-export default Info;
+export default Extrainfo;
