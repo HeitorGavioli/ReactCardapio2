@@ -6,7 +6,9 @@ body {
   background-color: #f4f4f4;
   /* Outros estilos globais */
 }
-
+h2{
+  font-size: 1.17em
+}
 .App {
   max-width: 900px;
   margin: 0 auto;
@@ -47,9 +49,6 @@ body {
 }
 
 .menu-item img {
-  width: 100%;
-  max-width: 220px;
-  height: 180px; /* Altura fixa para consistência */
   object-fit: cover; /* Garante que a imagem cubra a área sem distorcer */
   border-radius: 4px;
   margin-bottom: 10px;
@@ -71,7 +70,7 @@ body {
 
 .menu-item .preco {
   font-weight: bold;
-  color: #e74c3c; /* Cor de destaque para o preço */
+  color: #A02312; /* Cor de destaque para o preço */
   font-size: 1.15em;
 }
 
@@ -79,7 +78,7 @@ button {
     padding: 10px 18px;
     margin: 15px 5px;
     cursor: pointer;
-    background-color: #007bff;
+    background-color: #0054B3;
     color: white;
     border: none;
     border-radius: 5px;
